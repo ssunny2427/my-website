@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<style>
+
+.nav{
+    display: flex;
+    color: #E9DCC9;
+    flex-wrap: wrap;
+    background-color: #343434;
+    font-size: xx-large;
+    color: black;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+@media only screen and (max-width: 576px) {
+        .h1-text {
+            font-size: 3.5vw; /* Adjust the font size for the heading on smaller screens */
+            margin-top: 1rem; /* Adjust the margin-top for the heading on smaller screens */
+            margin-bottom: 2rem; /* Adjust the margin-bottom for the heading on smaller screens */
+        }
+
+        .proj-head {
+            font-size: 2rem; /* Adjust the font size for project headings on smaller screens */
+        }
+
+        .proj-para {
+            font-size: 1rem; /* Adjust the font size for project paragraphs on smaller screens */
+        }
+
+        .nav {
+            font-size: 1.2rem; /* Adjust the font size for navigation items on smaller screens */
+        }
+    }
+.bgr-img {
+    background-image: linear-gradient(to bottom,black,#343434,#28282B);
+        }
+        *{
+    scroll-behavior:smooth;
+  }
+
+  .h1-text{
+    font-size: 4.5vw;
+    background: linear-gradient(to top,black,white);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: transparent; 
+     -webkit-background-clip: text;
+     margin-top: 2rem;
+     margin-bottom: 3rem;
+     animation: fadein3  2s ease-in-out forwards;
+     
+}
+@keyframes fadein3 {
+    0%   {opacity: 0;
+        motion-rotation: reverse;
+    }
+        100% { opacity: 1;}
+
+}
+.proj-head{
+    background: linear-gradient(to bottom,#F5F5DC,	#F0EAD6,#FFFDD0);
+    -webkit-text-fill-color: transparent; 
+     -webkit-background-clip: text;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: 400;
+     animation: fadein1  2s ease-in-out forwards;
+}
+@keyframes fadein1 {
+    0%   {opacity: 0;
+        transform: translateY(-20px)}
+    100%{
+        opacity: 1;
+    }
+    }
+
+
+.proj-para{
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom,white,#F9F6EE,#EDEADE);
+    -webkit-text-fill-color: transparent; 
+     -webkit-background-clip: text;
+     animation: fadein  2s ease-in-out forwards;
+
+}
+@keyframes fadein {
+  from { opacity: 0; 
+    transform: translate(0%,75%)scale(0.3);
+}
+  to   { opacity: 1; }
+}
+
+
+</style>
+</head>
+<body class="bgr-img">
+    <section>
+        <fieldset>
+        <div class="container">
+            <div id="skills">
+
+              <section class="nav" id="navbar">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                           
+                            <a class="navbar-brand" href="#home">Ssunny</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/home">Home</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/skills">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/projects">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/resume">Resume</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/hobbies">Hobbies</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/contact">Contact</a>
+                                    </li>
+                                       
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+<div>
+    <h1 class="h1-text">MY PROJECTS</h1>
+    </div>
+    <section>
+        <div class="container">
+            <div id="projects">
+                
+                <h3 class="proj-head">NBNCO-TELECOM SERVICES PROJECT</h3>
+             <p class="proj-para">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                  </svg>
+                  <br>
+                  completed an internship with Internsic Global Communications, an Australian telecom business that specializes in network services, and completed a project on distributed fiber networks (DFNs) utilizing AutoCAD map 3D modeling .The project mostly works with the underground buried network transfer between one place to another one.In order to ensure that there are no disruptions in the underground buried network, this project assists us in properly connecting the network using duct lines from one pit to another.As the DFN for the project, it is my responsibility to connect the wires, djl, and sjl correctly, as well as to make the data clear and set it using offeset.Data is transferred from equipment to the pit via DFN, and local fiber networks (LFNs) provide access from the pit to the homes.The project's primary goal is to ensure that the network is correctly connected and transferred between two locations.
+
+                </p>
+               
+
+            </div>
+            </div>
+    </section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
